@@ -4,7 +4,7 @@
 @Config =
 
 	# Basic Details
-	name: 'My App'
+	name: 'Sherpa'
 	title: ->
 			TAPi18n.__ 'configTitle'
 	subtitle: ->
@@ -27,30 +27,30 @@
 	dateFormat: 'D/M/YYYY'
 
 	# Meta / Extenrnal content
-	privacyUrl: 'http://meteorfactory.io'
-	termsUrl: 'http://meteorfactory.io'
+	privacyUrl: 'http://sherp.meteor.com'
+	termsUrl: 'http://sherp.meteor.com'
 
 	# For email footers
 	legal:
-		address: 'Jessnerstrasse 18, 12047 Berlin'
-		name: 'Meteor Factory'
-		url: 'http://benjaminpeterjones.com'
+		address: 'Tieckstrasse 21, 10115 Berlin'
+		name: 'Sherpa'
+		url: 'http://sherp.meteor.com'
 
-	about: 'http://meteorfactory.io'
-	blog: 'http://learn.meteorfactory.io'
+	about: 'http://sherp.meteor.com'
+	blog: 'http://sherp.meteor.com'
 
 	socialMedia:
 		facebook:
-			url: 'http://facebook.com/benjaminpeterjones'
+			url: 'http://facebook.com/sherpa'
 			icon: 'facebook'
 		twitter:
-			url: 'http://twitter.com/BenPeterJones'
+			url: 'http://twitter.com/sherpa'
 			icon: 'twitter'
 		github:
-			url: 'http://github.com/yogiben'
+			url: 'http://github.com/sherpa'
 			icon: 'github'
 		info:
-			url: 'http://meteorfactory.io'
+			url: 'http://sherpa.meteor.com'
 			icon: 'link'
 
 	#Routes

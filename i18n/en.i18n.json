@@ -1,10 +1,10 @@
 {
 
 	/*Config*/
-	"configName": "My App",
-	"configTitle": "Make Meteor Apps. Fast.",
-	"configSubtitle": "Create beautiful and functioning Meteor apps really quick",
-	
+	"configName": "Sherpa",
+	"configTitle": "Meet Sherpa: Your personal help for heavy shopping.",
+	"configSubtitle": "Had a crush on a designer chair in a local shop? Order a Sherpa to deliver it to you at your convenience.",
+
 	/*Home*/
 	"getstarted": "Get Started",
 	"dashboard": "Go to dashboard",
@@ -38,17 +38,17 @@
 	"edit_profile": "Edit Profile",
 
 	/*Not Found*/
-	"not_found": "Nothing here.",
+	"not_found": "No orders yet.",
 
 
 	/*Dashboard*/
-	"add_post": "Add a Post",
-	"add_post_btn": "Add Post",
+	"add_post": "Order a Sherpa",
+	"add_post_btn": "Order",
 	"add_post_modal": "Add with a modal",
-	"add_post_modal_btn": "Add a new post",
-	"edit_post": "Edit post",
+	"add_post_modal_btn": "Order a new Sherpa",
+	"edit_post": "Edit order",
 	"delete": "Delete",
-	"favorites": "Favorites",
+	"favorites": "PROCESS",
 
 	/*Account*/
 	"account_details": "Account Details",
@@ -63,9 +63,9 @@
 
 	/*Posts*/
 
-	"postTitle": "Title",
-	"postContent": "Content",
-	"postPicture": "Picture",
+	"postTitle": "Price",
+	"postContent": "Location",
+	"postPicture": "Photo",
 	// "uploadLabel": "Choose File"
 	"profilePicture": "Profile Picture"
 

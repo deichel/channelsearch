@@ -23,9 +23,9 @@
 				<div class="panel-body">
 					{{#autoForm id="add" collection="Posts" type="insert"}}
 					{{> afQuickField name="title"}}
-					{{> afQuickField name="content"}}
+					{{> afQuickField name="content" }}
 					{{> afQuickField name="picture"}}
-					<button type="submit" class="btn btn-primary">{{_ "add_post_btn"}}</button>
+					<button type="submit" class="btn btn-primary pull-right">{{_ "add_post_btn"}}</button>
 					{{/autoForm}}
 				</div>
 		</div>
@@ -47,11 +47,11 @@
 		<div class="panel panel-default">
 				<div class="panel-heading">
 					<h3 class="panel-title">
-						{{title}}
-						<span class="pull-right">
+						Order - {{title}} EUR
+						<!-- <span class="pull-right">
 							<i class="fa fa-thumbs-up"></i> {{#with favoritesByDoc _id}}{{count}}{{/with}}
 							<i class="fa fa-comments"></i> {{commentCount _id}}
-						</span>
+						</span> -->
 					</h3>
 				</div>
 				<div class="panel-body">

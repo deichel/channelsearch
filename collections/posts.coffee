@@ -3,12 +3,17 @@
 Schemas.Posts = new SimpleSchema
 	title:
 		type:String
+		label: 'Price'
 		max: 60
 
 	content:
 		type: String
+		optional:true
 		autoform:
 			rows: 5
+			label:false
+			afFieldInput:
+				type: 'hidden'
 
 	createdAt: 
 		type: Date
