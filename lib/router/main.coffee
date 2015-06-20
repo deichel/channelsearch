@@ -14,6 +14,9 @@ Router.map ->
     data: ->
       posts: Posts.find({owner: Meteor.userId()},{sort: {createdAt: -1}}).fetch()
 
+  @route "checkout",
+    path: "/checkout"
+
   @route "orders",
     path: "/orders"
     waitOn: ->
