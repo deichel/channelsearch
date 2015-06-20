@@ -7,7 +7,7 @@
 
 	/*Home*/
 	"getstarted": "Get Started",
-	"dashboard": "Go to dashboard",
+	"dashboard": "Go to my orders",
 	"learn": "Learn more",
 	"intro": "Make Meteor Apps. Fast.",
 	"how": "How It Works",
@@ -25,9 +25,10 @@
 
 	/*Shared*/
 
-	"favorite": "Favorite",
+	"favorite": "Process",
 
 	 /*Navbar*/
+	"orders": "Orders",
 	"admin": "Admin",
 	"profile": "Profile",
 	"account": "Account",
@@ -48,7 +49,7 @@
 	"add_post_modal_btn": "Order a new Sherpa",
 	"edit_post": "Edit order",
 	"delete": "Delete",
-	"favorites": "PROCESS",
+	"favorites": "Processed orders",
 
 	/*Account*/
 	"account_details": "Account Details",

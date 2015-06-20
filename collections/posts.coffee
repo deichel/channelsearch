@@ -10,6 +10,7 @@ Schemas.Posts = new SimpleSchema
 		type: String
 		optional:true
 		autoform:
+			defaultValue: 'Caffe Moscau, Karl-Marx-Allee 34, 10178 Berlin'
 			rows: 5
 			label:false
 			afFieldInput:

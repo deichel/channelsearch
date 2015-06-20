@@ -12,4 +12,15 @@ Router.map ->
         subs.subscribe 'attachments'
       ]
     data: ->
+      posts: Posts.find({owner: Meteor.userId()},{sort: {createdAt: -1}}).fetch()
+
+  @route "orders",
+    path: "/orders"
+    waitOn: ->
+      [
+        subs.subscribe 'posts'
+        subs.subscribe 'comments'
+        subs.subscribe 'attachments'
+      ]
+    data: ->
       posts: Posts.find({},{sort: {createdAt: -1}}).fetch()

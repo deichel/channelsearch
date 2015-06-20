@@ -2,6 +2,13 @@
 	<div class="template-dashboard">
 		<div class="container">
 			<div class="row" id="champion-messages">
+				
+			{{#if isInRole 'admin'}}
+				<div class="text-center">
+				You are an administrator, check the orders here:<br><br>
+				<a href="{{pathFor 'orders'}}" class="btn btn-success"><i class="fa fa-dashboard"></i> {{_ "orders"}}</a>
+				</div>
+			{{else}}
 				<div class="col-md-3">
 					{{> addPost}}
 					{{> favoritesSidebar}}
@@ -9,6 +16,7 @@
 				<div class="col-md-9">
 					{{> posts}}
 				</div>
+			{{/if}}
 			</div>
 		</div>
 	</div>
@@ -80,31 +88,10 @@
 					</div>
 				</div>
 				<div class="panel-footer">
-					{{> favoriteButton _id=_id}}
+					<!-- {{> favoriteButton _id=_id}} -->
 					{{> commentFormToggle }}
 					{{> comments}}
 				</div>
 		</div>
-	</div>
-</template>
-
-<template name="favoritesSidebar">
-	<div class="template-favorites-sidebar">
-		{{#if myFavorites.count}}
-		<div class="panel panel-default">
-			<div class="panel-heading">
-					<h3 class="panel-title">{{_ "favorites"}}</h3>
-			</div>
-			<div class="panel-body">
-				<ul>
-				{{#each myFavorites}}
-					<li>
-						<a>{{_id}}</a>
-					</li>
-				{{/each}}
-				</ul>
-			</div>
-		</div>
-		{{/if}}
 	</div>
 </template>
