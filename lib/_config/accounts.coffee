@@ -42,3 +42,4 @@ AccountsTemplates.configure
 AccountsTemplates.configureRoute 'signIn'
 AccountsTemplates.configureRoute 'signUp'
 AccountsTemplates.configureRoute 'forgotPwd'
+

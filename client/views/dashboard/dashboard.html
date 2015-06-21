@@ -54,13 +54,22 @@
 <template name="post">
 	<div class="template-post">
 		<div class="panel panel-default">
-				<div class="panel-heading">
+				<div class="panel">
 					<h3 class="panel-title">
-						Order - {{title}} EUR
-						<!-- <span class="pull-right">
-							<i class="fa fa-thumbs-up"></i> {{#with favoritesByDoc _id}}{{count}}{{/with}}
-							<i class="fa fa-comments"></i> {{commentCount _id}}
-						</span> -->
+						<span class="pull-right">
+							<!-- <i class="fa fa-thumbs-up"></i> {{#with favoritesByDoc _id}}{{count}}{{/with}}
+							<i class="fa fa-comments"></i> {{commentCount _id}} -->
+							{{#if $eq owner User._id}}
+							<small>
+								{{#afModal title="Update post" omitFields="createdAt,updatedAt,owner" class="text-primary" collection="Posts" operation="update" doc=_id}}
+									<i class="fa fa-pencil" buttonContent="Edit post"></i> {{_ "edit_post"}}
+								{{/afModal}}
+								{{#afModal title="Delete post" class="text-danger" collection="Posts" operation="remove" doc=_id}}
+									<i class="fa fa-times" buttonContent="Edit post"></i> {{_ "delete"}}
+								{{/afModal}}
+							</small>
+							{{/if}}
+						</span>
 					</h3>
 				</div>
 				<div class="panel-body">
@@ -74,17 +83,9 @@
 							{{> profileThumb _id=owner}}
 						</a>
 						<div class="media-body">
+							{{title}} EUR
 							<p>{{content}}</p>
-							{{#if $eq owner User._id}}
-							<small>
-								{{#afModal title="Update post" omitFields="createdAt,updatedAt,owner" class="text-primary" collection="Posts" operation="update" doc=_id}}
-									<i class="fa fa-pencil" buttonContent="Edit post"></i> {{_ "edit_post"}}
-								{{/afModal}}
-								{{#afModal title="Delete post" class="text-danger" collection="Posts" operation="remove" doc=_id}}
-									<i class="fa fa-times" buttonContent="Edit post"></i> {{_ "delete"}}
-								{{/afModal}}
-							</small>
-							{{/if}}
+							
 						</div>
 					</div>
 				</div>
