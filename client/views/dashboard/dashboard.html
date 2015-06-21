@@ -30,9 +30,8 @@
 				</div>
 				<div class="panel-body">
 					{{#autoForm id="add" collection="Posts" type="insert"}}
-					
-					{{> afQuickField name="content" }}
 					{{> afQuickField name="picture"}}
+					{{> afQuickField name="content" }}
 					{{> afQuickField name="title"}}
 					<button type="submit" class="btn btn-primary pull-right">{{_ "add_post_btn"}}</button>
 					{{/autoForm}}

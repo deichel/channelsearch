@@ -22,7 +22,6 @@ yogiben:helpers
 iron:router
 yogiben:autoform-modals
 yogiben:pretty-email
-yogiben:autoform-file
 yogiben:autoform-map
 multiply:iron-router-progress
 manuelschoebel:ms-seo
@@ -60,3 +59,4 @@ tsega:skrollr
 npm-container
 goltfisch:braintree-client
 meteorhacks:npm
+yogiben:autoform-file@0.1.7
