@@ -2,20 +2,6 @@
     <!-- {{#autoForm collection="Comments" id="commentForm" type="insert" commentDocId=_id}}
       {{> afQuickField name='content' id='content' rows=2}} -->
 
-<form id="checkout" method="post" action="/checkout">
-  <div id="dropin"></div>
-  <input type="submit" value="Pay $10">
-</form>
-
-<script>
-  braintree.setup(
-    // Replace this with a client token from your server
-    "MIIBCgKCAQEAtEoWzQYPfwWgX2BlU8KMP8zwk7Nml268i2AigS5tv9kWfgvFwCMbk9uxKy6KilnFdXqMh+q0+4tSAZydbN5G35ztR65P2G4Pyu4N5JBdiJjjX2Q7FBWED7b1Tomx4P88kR6cqLTguceJ9X5wF6I/Pwy/luhvLdkRYQ3n8p4DtHDrN6t35IzSPFFasWNCcB7EMuBc78yGMbc1MJhVsRXpqhR3nZhQfcctG0AbmWLKNuCk7IOTmKtc1O0amXia3DpcbTCEXJk6S2jNHJRScnDQXw7foQOkz/oYVFPc0nptB9fD//OraT3nLzacEo6lTNDPgScZ4Fjg+9v4ufYM+GRCQwIDAQAB",
-    "dropin", {
-      container: "dropin"
-    });
-</script>
-
 <!-- 
     <button type="submit" doc="{{_id}}" class="btn btn-primary btn-sm">Pay with Braintree</button>
     {{#if cancelButton}}
