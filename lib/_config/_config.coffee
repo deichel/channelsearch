@@ -4,7 +4,7 @@
 @Config =
 
 	# Basic Details
-	name: 'Sherpa'
+	name: 'Bring it'
 	title: ->
 			TAPi18n.__ 'configTitle'
 	subtitle: ->
