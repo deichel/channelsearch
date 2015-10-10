@@ -16,7 +16,7 @@ Schemas.Posts = new SimpleSchema
 			afFieldInput:
 				type: 'hidden'
 
-	createdAt: 
+	createdAt:
 		type: Date
 		autoValue: ->
 			if this.isInsert
@@ -36,7 +36,7 @@ Schemas.Posts = new SimpleSchema
 				type: 'fileUpload'
 				collection: 'Attachments'
 
-	owner: 
+	owner:
 		type: String
 		regEx: SimpleSchema.RegEx.Id
 		autoValue: ->

@@ -21,36 +21,36 @@
 
 	# Username - if true, users are forced to set a username
 	username: false
-	
+
 	# Localisation
 	defaultLanguage: 'en'
 	dateFormat: 'D/M/YYYY'
 
 	# Meta / Extenrnal content
-	privacyUrl: 'http://sherp.meteor.com'
-	termsUrl: 'http://sherp.meteor.com'
+	privacyUrl: 'http://channelsearch.meteor.com'
+	termsUrl: 'http://channelsearch.meteor.com'
 
 	# For email footers
 	legal:
 		address: 'Tieckstrasse 21, 10115 Berlin'
-		name: 'Sherpa'
-		url: 'http://sherp.meteor.com'
+		name: 'channelsearch'
+		url: 'http://channelsearch.meteor.com'
 
-	about: 'http://sherp.meteor.com'
-	blog: 'http://sherp.meteor.com'
+	about: 'http://channelsearch.meteor.com'
+	blog: 'http://channelsearch.meteor.com'
 
 	socialMedia:
 		facebook:
-			url: 'http://facebook.com/sherpa'
+			url: 'http://facebook.com/channelsearch'
 			icon: 'facebook'
 		twitter:
-			url: 'http://twitter.com/sherpa'
+			url: 'http://twitter.com/channelsearch'
 			icon: 'twitter'
 		github:
-			url: 'http://github.com/sherpa'
+			url: 'http://github.com/channelsearch'
 			icon: 'github'
 		info:
-			url: 'http://sherpa.meteor.com'
+			url: 'http://channelsearch.meteor.com'
 			icon: 'link'
 
 	#Routes
