@@ -1,2 +1,2 @@
-Stupid Sherpa
+Pivot to ChannelSearch
 ==============
