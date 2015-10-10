@@ -1,2 +1,2 @@
-Template.registerHelper 'amount', (title)->
-  _amount = @title/100
+# Template.registerHelper 'amount', (title)->
+#   _amount = @title/100
