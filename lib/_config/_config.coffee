@@ -4,7 +4,7 @@
 @Config =
 
 	# Basic Details
-	name: 'Sherpa'
+	name: 'ChannelSearch'
 	title: ->
 			TAPi18n.__ 'configTitle'
 	subtitle: ->
