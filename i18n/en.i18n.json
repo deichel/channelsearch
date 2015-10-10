@@ -1,9 +1,9 @@
 {
 
 	/*Config*/
-	"configName": "Sherpa",
-	"configTitle": "Meet Sherpa: Your personal help for heavy shopping.",
-	"configSubtitle": "Had a crush on a designer chair in a local shop? Order a Sherpa to deliver it to you at your convenience.",
+	"configName": "ChannelSearch",
+	"configTitle": "Meet ChannelSearch: The easiest way to find Youtube channels.",
+	"configSubtitle": "Meteor hackhathon Berlin 2015.",
 
 	/*Home*/
 	"getstarted": "Get Started",
@@ -71,7 +71,7 @@
 	"profilePicture": "Profile Picture"
 
 
-	
+
 
 
 }
